@@ -15,14 +15,13 @@ h1 {
 	color: green
 } /* Завдання 4 */
 
-#blue {
+div #blue {
 	color: blue;
 } /* Завдання 5 */
 
-div {
+.box {
 	background-color: green;
-} /* Завдання 6 */
-section p {
+} p {
 	background-color: red;
 }
  /* Завдання 6 селектор нащадка чомусь не працює з цими стрілками ">>", тому поставив пробіл, як казав Кирил у відео */
@@ -129,7 +128,7 @@ button + span {
 	color: red;
 } /* Завдання 9 */
 
-.lesson-three-task-ten p::first-line {
+.lesson-three-task-ten p:first-child::first-line {
 	background-color: yellow;
 } /* Завдання 10 */
 
