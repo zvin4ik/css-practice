@@ -19,13 +19,13 @@ div #blue {
 	color: blue;
 } /* Завдання 5 */
 
-div .box {
+.box div {
 	background-color: green;
 }
-p {
+.box p {
 	background-color: red;
 }
- /* Завдання 6 селектор нащадка чомусь не працює з цими стрілками ">>", тому поставив пробіл, як казав Кирил у відео */
+ /* Завдання 6 */
 
 .brown {
 	background-color: brown;
